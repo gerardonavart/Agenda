@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agenda.App">
+	<Application.Resources>
+
+        <ResourceDictionary>
+
+            <Color x:Key="ColorPrimarioOscuro">#E64A19</Color>
+            <Color x:Key="ColorPrimarioClaro">#FFCCBC</Color>
+            <Color x:Key="ColorPrimario">#FF5722</Color>
+            <Color x:Key="TextoIconos">#FFFFFF</Color>
+            <Color x:Key="ColorAcentuado">#FFC107</Color>
+            <Color x:Key="TextoPrimario">#212121</Color>
+            <Color x:Key="TextoSecundario">#757575</Color>
+            <Color x:Key="ColorDivisor">#BDBDBD</Color>
+
+            <Style x:Key="btnNormal" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorPrimario}"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style x:Key="btnGuardar" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Green"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+        </ResourceDictionary>
+
+	</Application.Resources>
+</Application>
